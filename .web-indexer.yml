@@ -1,8 +1,0 @@
-# index_file is the name of the file to generate.
-index_file: "index.html"
-source: /home/schoty/github/khronosschoty.org/
-target: /home/schoty/github/khronosschoty.org/
-theme: solarized
-skips: .web-indexer.yml,CNAME
-recursive: true
-link_to_index: true
