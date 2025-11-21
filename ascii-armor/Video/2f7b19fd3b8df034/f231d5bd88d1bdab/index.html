@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+    *, body {
+        padding: 0;
+        margin: 0;
+    }
+    a { text-decoration: none; }
+
+     
+    :root {
+        --base03: #002b36;
+        --base02: #073642;
+        --base01: #586e75;
+        --base00: #657b83;
+        --base0: #839496;
+        --base1: #93a1a1;
+        --base2: #eee8d5;
+        --base3: #fdf6e3;
+        --yellow: #b58900;
+        --orange: #cb4b16;
+        --red: #dc322f;
+        --magenta: #d33682;
+        --violet: #6c71c4;
+        --blue: #268bd2;
+        --cyan: #2aa198;
+        --green: #859900;
+    }
+
+    body {
+        font-family: 'Menlo', 'DejaVu Sans Mono', 'Liberation Mono', monospace;
+        line-height: 1.5;
+    }
+
+    h1 {
+        padding: 16px;
+        font-weight: normal;
+        letter-spacing: -0.5px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        text-align: left;
+        padding: 10px 16px;
+    }
+
+    tr:hover {
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+
+    span.icon {
+        margin-right: 10px;
+        opacity: 0.8;
+    }
+
+     
+    @media (prefers-color-scheme: light) {
+        body {
+            background-color: var(--base3);
+            color: var(--base00);
+        }
+        h1 {
+            color: var(--base01);
+            background-color: var(--base2);
+            border-bottom: 1px solid var(--base1);
+        }
+        a:link { color: var(--blue); }
+        a:visited { color: var(--violet); }
+        a:hover { color: var(--cyan); text-decoration: underline; }
+
+        th {
+            color: var(--base01);
+            border-bottom: 1px solid var(--base1);
+        }
+        td {
+            border-bottom: 1px solid var(--base2);
+        }
+        tr:hover {
+            background-color: var(--base2);
+        }
+    }
+
+     
+    @media (prefers-color-scheme: dark) {
+        body {
+            background-color: var(--base03);
+            color: var(--base0);
+        }
+        h1 {
+            color: var(--base1);
+            background-color: var(--base02);
+            border-bottom: 1px solid var(--base01);
+        }
+        a:link { color: var(--blue); }
+        a:visited { color: var(--violet); }
+        a:hover { color: var(--cyan); text-decoration: underline; }
+
+        th {
+            color: var(--base1);
+            border-bottom: 1px solid var(--base01);
+        }
+        td {
+            border-bottom: 1px solid var(--base02);
+        }
+        tr:hover {
+            background-color: var(--base02);
+        }
+    }
+    </style>
+    <meta charset="UTF-8">
+</head>
+<body>
+    
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Size</th>
+            <th>Last Modified</th>
+        </tr>
+        
+        <tr>
+            <td class="filename"><a href="../index.html">
+                <span class="icon">🔼</span>Go Up</a>
+            </td>
+            <td>-</td>
+            <td>-</td>
+        </tr>
+        
+        
+        <tr>
+            <td class="filename">
+                <span class="icon">
+                
+                📄
+                
+                </span>
+                <a href="x00">x00</a>
+            </td>
+            <td class="size">
+                
+                25.98 MB
+                
+            </td>
+            <td class="date">
+                
+                2025-11-20 15:54:19 PST
+                
+            </td>
+        </tr>
+        
+        <tr>
+            <td class="filename">
+                <span class="icon">
+                
+                📄
+                
+                </span>
+                <a href="x01">x01</a>
+            </td>
+            <td class="size">
+                
+                25.98 MB
+                
+            </td>
+            <td class="date">
+                
+                2025-11-20 15:54:19 PST
+                
+            </td>
+        </tr>
+        
+    </table>
+</body>
+</html>
